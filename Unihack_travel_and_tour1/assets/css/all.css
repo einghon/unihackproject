@@ -1,0 +1,168 @@
+.index_st0{fill:#FFFFFF;stroke:#81C784;stroke-width:3;}
+.index_st1{fill:none;stroke:#66BB6A;stroke-width:6;stroke-dasharray:28,17;}
+.index_st2{fill:none;stroke:#66BB6A;stroke-width:6;}
+.index_st3{fill:none;stroke:#66BB6A;stroke-width:4;}
+.index_st4{fill:none;stroke:#66BB6A;stroke-width:3;}
+.index_st5{fill:#FFFFFF;stroke:#66BB6A;stroke-width:4;}
+.index_st6{fill:#FFFFFF;stroke:#66BB6A;stroke-width:3;}
+.index_st7{fill:#FFFFFF;stroke:#66BB6A;stroke-width:2;}
+.index_st8{fill:none;stroke:#66BB6A;stroke-width:2;}
+.index_st9{fill:none;stroke:#66BB6A;stroke-width:1.5;}
+.index_st10{fill:#FFFFFF;stroke:#66BB6A;stroke-width:1.5;}
+.search_st0{stroke:#FFFFFF;stroke-width:3;fill:#81C784; transform-origin: 50% 50%;cursor: pointer;}
+
+.search_svg {
+  width: 257px;
+  margin: auto;
+}
+
+  .wuwoo_border {
+    font-size: 1rem;
+    padding: 10px ;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius : 1.5px ;
+    display: inline;
+  }
+  .wu-nav {
+    display: none;
+  }
+  .wu-navi {
+    box-shadow: none;
+  }
+  .index_map_container {
+    position: relative;
+    width: 100%;;
+    min-height: calc(100vh - 54px);
+  }
+  .index_map_container::after {
+    content : " ";
+    clear: both ;
+  }
+  .index_map {
+    margin-left:130px;
+    width: 315px;
+    float:left;
+  }
+
+  .index_right_login {
+    width: 85%;
+    padding-left: 530px;
+    height: 200px;
+  }
+  .index_right_login>div:nth-child(1) {
+    padding-top: 50px;
+  }
+  .index_right_login>div:nth-child(1)>div:nth-child(1) {
+    padding: 10px 30px 20px 20px;
+  }
+  div.index_right_login > div > div > div > span{
+    position:relative;
+    display: inline-block;
+    font-size: 2.9rem;
+    transition:all 0.2s linear;
+  }
+  div.index_right_login > div > div > div > span.r {
+    padding-right: 15px;
+  }
+
+  div.index_right_login > div > div > div > span:hover {
+    transform : translateY(-5px);
+    transition : all 0.2s linear;
+  }
+  .index_button::before {
+    content : " ";
+    top:0;
+    left: 0;
+    width: 102%;
+    height: 100px;
+    background-color: #81C784;
+    position: absolute;
+    z-index: -1;
+    transform: scale(0,1);
+    -webkit-transform-origin: 120% 50%;
+    transition: transform 0.25s ease-in-out;
+  }
+  .index_button {
+    color: #81C784;
+    position: relative;
+    margin-top: 12.5px;
+    z-index: 2;
+    padding: 10px;
+    background-color: transparent ;
+    border-radius: 1.5px;
+    border: 1px solid #81C784;
+    overflow:hidden;
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+  }
+  .index_button:hover::before {
+    -webkit-transform-origin: -120% 50%;
+    transform: scale(1,1);
+    transition: transform 0.4s ease-in-out;
+  }
+  .index_button:hover {
+    color: white;
+    transition: color 0.4s ease-in-out;
+  }
+  .index_button:focus {
+    background-color: transparent;
+  }
+  .index_right_find {
+
+  }
+  .index_left_find {
+    padding-top:15px;
+  }
+
+  .m-left-10px {
+        margin-left: 10px;
+  }
+  @media only screen and (max-width: 992px) {
+    .index_map {
+      width: 315px;
+      margin: auto;
+      float : none;
+      clear:left;
+    }
+
+    .index_right_login {
+      padding-left: 0px;
+      width: 100%;
+    }
+
+    div.index_right_login > div > div > div {
+      text-align: center;
+    }
+    div.index_right_login > div > div > h5 {
+      text-align: center;
+    }
+  }
+
+
+
+@font-face {
+font-family: "Material Icons";
+src: url("../fonts/material.woff2") format("embedded-opentype"),
+url("../fonts/material.woff2") format("woff2"),
+url("../fonts/material.woff2") format("woff"),
+url("../fonts/material.woff2") format("truetype"),
+url("../fonts/material.woff2") format("svg");
+font-weight: normal;
+font-style: normal; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
